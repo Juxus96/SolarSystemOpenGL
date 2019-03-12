@@ -55,7 +55,7 @@ namespace example
 		//tranform it before painting
 		glTranslatef(position.values[0], position.values[1], position.values[2]);
 		glRotatef(angle, rotationVector.values[0], rotationVector.values[1], rotationVector.values[2]);
-
+		
         // Se dibujan los dos triangle fans que forman las tapas de los polos:
         for (Index_Buffer_Set::const_iterator cap = caps.begin (); cap != caps.end (); ++cap)
         {

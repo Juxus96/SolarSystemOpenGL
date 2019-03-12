@@ -56,7 +56,7 @@ namespace example
 
 
 		//inicializar los elementos:
-		sun.setPosition(0, 0, -10);
+		sun.setPosition(0, 0, -5);
 		sun.setRotationVector(0, 1, 0);
 		sun.setAngularSpeed(0.5f);
 
