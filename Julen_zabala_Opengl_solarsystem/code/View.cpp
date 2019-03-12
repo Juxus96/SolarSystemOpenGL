@@ -62,7 +62,7 @@ namespace example
 
 		earth.setPosition(1, 0, 0);
 		earth.setRotationVector(1, 0, 0);
-		earth.setAngularSpeed(0.7f);
+		earth.setAngularSpeed(0.5f);
 
 		moon.setPosition(0, 0, 0.1);
 		//moon.setRotationVector(1, 0, 0);

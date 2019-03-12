@@ -14,8 +14,8 @@
  *    Quizás el código quedaría más simple y breve si sólo se usasen triangle  *
  *    strips, tratando las tapas como tales.                                   *
  *                                                                             *
- *    Quizás se podría hacer un único triangle strip para todas las bandas     *
- *    sin complicar demasiado el código tejido.                                *
+ *    Quizás se podría hacer un único triangle strip para todas las bandas   *
+ *    sin complicar demasiado el código tejido.                               *
  *                                                                             *
 \* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -87,7 +87,9 @@ namespace example
         }
 		for (auto & child : children)
 		{
+			glPushMatrix();
 			child.render();
+			glPopMatrix();
 		}
     }
 
